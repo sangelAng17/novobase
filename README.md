@@ -187,10 +187,11 @@ ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT EXECUTE ON FUNCTIONS TO service_
 
 postgresql://postgres.xviqxmxeixigejkrojwg:[YOUR-PASSWORD]@aws-1-us-east-2.pooler.supabase.com:5432/postgres
 
-° host:aws-1-us-east-2.pooler.supabase.com
-° port:5432
-° database:postgres
-° user:postgres.xviqxmxeixigejkrojwg
+- host:aws-1-us-east-2.pooler.supabase.com
+- port:5432
+- database:postgres
+- user:postgres.xviqxmxeixigejkrojwg
+- paswword : *goldenclear*
 
 <img width="1031" height="606" alt="image" src="https://github.com/user-attachments/assets/f525384b-6228-45d5-8f5d-7df5f18c83cc" />  
 <img width="405" height="213" alt="image" src="https://github.com/user-attachments/assets/7e9bb14c-285d-4d3f-96ec-8d0d6a5702af" />
