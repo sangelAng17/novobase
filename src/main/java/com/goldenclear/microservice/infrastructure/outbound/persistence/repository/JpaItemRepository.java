@@ -7,6 +7,5 @@ import java.util.List;
 
 public interface JpaItemRepository extends JpaRepository<ItemEntity,Long> {
 
-    List<ItemEntity> findDistinctByReviewsCantidad(Long cantidad);
 
 }

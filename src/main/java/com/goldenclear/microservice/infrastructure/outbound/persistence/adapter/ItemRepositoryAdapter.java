@@ -16,7 +16,7 @@ public class ItemRepositoryAdapter  implements ItemRepository {
 
     private final JpaItemWithRatingRepository jpaItemWithRatingRepository;
     private final ItemWithRatingMapper itemWithRatingMapper;
-    private final ItemMapper itemMapper;
+
     @Override
     public List<Item> findItemsWithAverageRatingLowerThan(Double rating) {
             return itemWithRatingMapper.toDomainList(
