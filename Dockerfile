@@ -11,6 +11,7 @@ FROM eclipse-temurin:17-jdk
 WORKDIR /app
 
 COPY --from=builder /app/target/*.jar app.jar
+COPY --from=builder /app/target/site/jacoco /app/jacoco
 
 EXPOSE 8080
 
