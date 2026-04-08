@@ -23,7 +23,7 @@
             }
 
             if (rating < 0) {
-                throw new IllegalArgumentException("Rating no puede ser igual o menor que 0");
+                throw new IllegalArgumentException("Rating no puede ser menor que 0");
             }
 
             return itemRepository.findItemsWithAverageRatingLowerThan(rating);
@@ -35,7 +35,7 @@
             }
 
             if (rating < 0) {
-                throw new IllegalArgumentException("Rating no puede ser igual o menor que 0");
+                throw new IllegalArgumentException("Rating no puede ser menor que 0");
             }
 
             return itemRepository.findDistinctByReviewsCantidad(rating)
@@ -51,7 +51,7 @@
             }
 
             if (rating < 0) {
-                throw new IllegalArgumentException("Rating no puede ser igual o menor que 0");
+                throw new IllegalArgumentException("Rating no puede ser menor que 0");
             }
 
             Long ratingLong = rating.longValue();
