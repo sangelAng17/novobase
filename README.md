@@ -217,10 +217,8 @@ Para este caso se implementaron pruebas unitarias utilizando Mockito y JUnit 5, 
 
 Link : https://novobase.onrender.com/index.html
 
-<img width="1309" height="448" alt="image" src="https://github.com/user-attachments/assets/22f0bd3f-5aaa-44d6-b222-9486c6d6ac5e" />
-<img width="937" height="294" alt="image" src="https://github.com/user-attachments/assets/3396c4a9-f756-4491-a679-bb1b7e53a93d" />
-<img width="1039" height="237" alt="image" src="https://github.com/user-attachments/assets/837e6e95-bd17-4e94-b817-b9e961fa5654" />
-<img width="607" height="870" alt="image" src="https://github.com/user-attachments/assets/735f21df-cbd8-40c7-9d05-bacabcb65a44" />
+<img width="1049" height="344" alt="image" src="https://github.com/user-attachments/assets/d0e25119-41ab-481b-be4d-7b60167a8419" />
+
 
 
 
