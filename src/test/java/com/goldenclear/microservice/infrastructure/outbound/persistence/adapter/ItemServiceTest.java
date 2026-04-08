@@ -86,7 +86,7 @@ class ItemServiceTest {
                 () -> itemService.getTitles(-1L)
         );
 
-        assertEquals("Rating no puede ser igual o menor que 0", ex.getMessage());
+        assertEquals("Rating no puede ser menor que 0", ex.getMessage());
     }
 
     @Test
@@ -115,7 +115,7 @@ class ItemServiceTest {
                 () -> itemService.findItemsWithAverageRatingLowerThan(-1.0)
         );
 
-        assertEquals("Rating no puede ser igual o menor que 0", ex.getMessage());
+        assertEquals("Rating no puede ser menor que 0", ex.getMessage());
     }
 
     @Test
@@ -148,6 +148,6 @@ class ItemServiceTest {
                 () -> itemService.getTitles(-1.0)
         );
 
-        assertEquals("Rating no puede ser igual o menor que 0", ex.getMessage());
+        assertEquals("Rating no puede ser menor que 0", ex.getMessage());
     }
 }
